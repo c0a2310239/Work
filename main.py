@@ -19,11 +19,6 @@ def add_goods(goods, name, amount, num):
     goods.append(good)
     return goods
 
-
-        
-
-
-
 def calculate_total_price(stock):
     #商品の単価と数量を取得
     amount = stock["amount"]
