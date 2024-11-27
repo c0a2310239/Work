@@ -13,6 +13,30 @@ def print_goods(goods):
         num = good["num"]
         
         print(f"|{name}|{amount}|{num}|")
+
+def add_goods(goods, name, amount, num):
+    good = {"name": name, "amount": amount, "num": num}
+    goods.append(good)
+    return goods
+
+
         
+
+
+
+def calculate_total_price(stock):
+    #商品の単価と数量を取得
+    amount = stock["amount"]
+    num = stock["num"]
+
+    #合計金額を計算
+    total_price = amount * num
+
+    #辞書に合計金額を追加
+    stock["total_price"] = total_price
+
+    return stock
+
+
 if __name__ == "__main__":
     main()
