@@ -1,5 +1,5 @@
 def main():
-    goods = [{"name": "コーヒー", "amount": 300, "num": 3}, {"name": "本", "aount": 500, "num": 5}, {"name": "クッキー", "aoount": 100, "num": 10}]
+    goods = [{"name": "コーヒー", "amount": 300, "num": 3}, {"name": "本", "amount": 500, "num": 5}, {"name": "クッキー", "amount": 100, "num": 10}]
 
     print("|商品名|金額|商品数|")
     print("|----|----|----|")
